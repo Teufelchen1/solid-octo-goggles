@@ -1,4 +1,11 @@
 { "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"json"
+        }
+    },
  "height":100,
  "infinite":true,
  "layers":[
@@ -233,7 +240,7 @@
         {
          "columns":32,
          "firstgid":1,
-         "image":"..\/..\/Downloads\/terrain_atlas.png",
+         "image":"tilesets\/terrain_atlas.png",
          "imageheight":1024,
          "imagewidth":1024,
          "margin":0,
