@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="101" height="100" tilewidth="32" tileheight="32" infinite="1" nextlayerid="8" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="101" height="100" tilewidth="32" tileheight="32" infinite="1" nextlayerid="10" nextobjectid="1">
  <editorsettings>
-  <export target="../jpc_outdoor.json" format="json"/>
+  <export target="../map.json" format="json"/>
  </editorsettings>
  <tileset firstgid="1" name="terrain_atlas" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
   <image source="../tilesets/terrain_atlas.png" width="1024" height="1024"/>
  </tileset>
+ <layer id="9" name="start" width="101" height="100">
+  <data encoding="csv">
+   <chunk x="0" y="32" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+669,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+669,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+669,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+  </data>
+ </layer>
  <layer id="1" name="background" width="101" height="100">
   <data encoding="csv">
    <chunk x="0" y="16" width="16" height="16">
@@ -158,6 +180,7 @@
 </chunk>
   </data>
  </layer>
+ <objectgroup id="8" name="floorLayer"/>
  <layer id="4" name="plants" width="101" height="100">
   <data encoding="csv">
    <chunk x="0" y="16" width="16" height="16">
