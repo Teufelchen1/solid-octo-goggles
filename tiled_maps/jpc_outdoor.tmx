@@ -7,6 +7,9 @@
   <image source="../tilesets/terrain_atlas.png" width="1024" height="1024"/>
  </tileset>
  <layer id="9" name="start" width="101" height="100">
+  <properties>
+   <property name="startLayer" type="bool" value="true"/>
+  </properties>
   <data encoding="csv">
    <chunk x="0" y="32" width="16" height="16">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -180,7 +183,6 @@
 </chunk>
   </data>
  </layer>
- <objectgroup id="11" name="floorLayer"/>
  <layer id="4" name="plants" width="101" height="100">
   <data encoding="csv">
    <chunk x="0" y="16" width="16" height="16">
@@ -377,5 +379,5 @@
 </chunk>
   </data>
  </layer>
- <objectgroup id="3" name="plants_walkon"/>
+ <objectgroup id="11" name="floorLayer"/>
 </map>

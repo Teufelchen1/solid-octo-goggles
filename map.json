@@ -23,6 +23,12 @@
          "id":9,
          "name":"start",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"startLayer",
+                 "type":"bool",
+                 "value":true
+                }],
          "startx":0,
          "starty":32,
          "type":"tilelayer",
@@ -112,17 +118,6 @@
          "type":"tilelayer",
          "visible":true,
          "width":32,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "draworder":"topdown",
-         "id":11,
-         "name":"floorLayer",
-         "objects":[],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -254,8 +249,8 @@
         }, 
         {
          "draworder":"topdown",
-         "id":3,
-         "name":"plants_walkon",
+         "id":11,
+         "name":"floorLayer",
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
