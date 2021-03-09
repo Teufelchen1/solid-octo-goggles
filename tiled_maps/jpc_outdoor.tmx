@@ -160,6 +160,16 @@
     <property name="collides" type="bool" value="true"/>
    </properties>
   </tile>
+  <tile id="402">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="403">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
   <tile id="404">
    <properties>
     <property name="collides" type="bool" value="true"/>
@@ -186,6 +196,16 @@
    </properties>
   </tile>
   <tile id="432">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="434">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="435">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
@@ -300,6 +320,16 @@
     <property name="collides" type="bool" value="true"/>
    </properties>
   </tile>
+  <tile id="763">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="764">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
   <tile id="768">
    <properties>
     <property name="collides" type="bool" value="true"/>
@@ -319,8 +349,35 @@
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-0.0658762" y="-0.724638" width="21.3439" height="32.8063"/>
+    <object id="2" x="21.7391" y="-0.0658762" width="3.82082" height="26.9433"/>
+    <object id="3" x="25.2964" y="-0.658762" width="6.78524" height="22.1344"/>
+   </objectgroup>
   </tile>
   <tile id="776">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0.131752" y="18.5112">
+     <polygon points="0,0 14.1634,13.7022 14.361,1.6469"/>
+    </object>
+    <object id="2" x="-0.263505" y="-0.131752" width="32.4111" height="18.5771"/>
+    <object id="3" x="13.834" y="17.3254" width="18.4453" height="14.8221"/>
+   </objectgroup>
+  </tile>
+  <tile id="795">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="796">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="797">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
@@ -329,21 +386,41 @@
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0.131752" width="19.9605" height="31.9499"/>
+    <object id="2" x="19.1041" y="11.9895" width="13.2411" height="20.0922"/>
+    <object id="3" x="19.1041" y="5.13834" width="7.83926" height="6.52174"/>
+   </objectgroup>
   </tile>
   <tile id="808">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0.131752" y="13.9657" width="32.1476" height="18.0501"/>
+    <object id="2" x="12.8458" y="-0.461133" width="19.4993" height="14.361"/>
+    <object id="3" x="0.658762" y="13.7022">
+     <polygon points="0,0 12.1212,-12.9776 12.1871,-0.131752"/>
+    </object>
+   </objectgroup>
   </tile>
   <tile id="838">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="15.0198" y="31.6864">
+     <polygon points="0,0 0.329381,-6.58762 6.06061,-16.2714 16.5349,-19.7628 16.9302,-19.5652 16.9302,0.197628"/>
+    </object>
+   </objectgroup>
   </tile>
   <tile id="839">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="9.09091" width="32.2134" height="23.1884"/>
+   </objectgroup>
   </tile>
   <tile id="840">
    <properties>
@@ -355,10 +432,28 @@
     </object>
    </objectgroup>
   </tile>
+  <tile id="859">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="860">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="861">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
   <tile id="870">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="10.7378" y="0.329381" width="21.278" height="31.7523"/>
+   </objectgroup>
   </tile>
   <tile id="871">
    <properties>
@@ -369,21 +464,52 @@
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-0.263505" y="-0.263505" width="22.2661" height="32.3452"/>
+   </objectgroup>
+  </tile>
+  <tile id="891">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="892">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="893">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
   </tile>
   <tile id="902">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="13.8999" y="0.0658762">
+     <polygon points="0,0 2.04216,6.58762 7.24638,14.888 13.5046,16.9302 17.8524,16.996 17.9842,0.0658762"/>
+    </object>
+   </objectgroup>
   </tile>
   <tile id="903">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-0.197628" y="0.0658762" width="32.3452" height="20.8169"/>
+   </objectgroup>
   </tile>
   <tile id="904">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="17.7207">
+     <polygon points="0,0 4.54545,0.197628 12.9117,-2.83267 18.7747,-12.9117 20.1581,-17.5231 0.263505,-17.5889"/>
+    </object>
+   </objectgroup>
   </tile>
   <tile id="934">
    <properties>
@@ -1252,9 +1378,6 @@
 </data>
  </layer>
  <layer id="13" name="border" width="118" height="100">
-  <properties>
-   <property name="collide" type="bool" value="true"/>
-  </properties>
   <data encoding="csv">
 0,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,927,928,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1359,9 +1482,6 @@
 </data>
  </layer>
  <layer id="14" name="border_fg" width="118" height="100">
-  <properties>
-   <property name="collide" type="bool" value="true"/>
-  </properties>
   <data encoding="csv">
 926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,926,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,958,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
