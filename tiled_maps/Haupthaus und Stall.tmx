@@ -28,12 +28,27 @@
   <image source="Tilesets/Tilesets/Animations/llama_eat.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="4973" source="Tilesets/Tilesets/Atlas2/build_atlas.tsx"/>
- <tileset firstgid="5997" source="Tilesets/Tilesets/ship.tsx"/>
- <tileset firstgid="6253" source="Tilesets/Tilesets/open_tileset-indexed.tsx"/>
- <tileset firstgid="7963" source="Tilesets/Tilesets/Atlas2/obj_misk_atlas.tsx"/>
- <tileset firstgid="8987" source="Tilesets/Tilesets/upholstery.tsx"/>
- <tileset firstgid="9499" source="Tilesets/Tilesets/Transparent.json"/>
- <tileset firstgid="9515" source="Tilesets/Tilesets/Atlas/terrain_atlas.tsx"/>
+ <tileset firstgid="5997" name="ship" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="Tilesets/Tilesets/ship.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="6253" name="open_tileset-indexed" tilewidth="32" tileheight="32" tilecount="1710" columns="45">
+  <image source="Tilesets/Tilesets/open_tileset-indexed.png" width="1440" height="1216"/>
+ </tileset>
+ <tileset firstgid="7963" name="obj_misk_atlas" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+  <image source="Tilesets/Tilesets/Atlas2/obj_misk_atlas.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="8987" name="upholstery" tilewidth="32" tileheight="32" tilecount="512" columns="16">
+  <image source="Tilesets/Tilesets/upholstery.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="9499" name="Transparent" tilewidth="32" tileheight="32" tilecount="16" columns="4">
+  <image source="Tilesets/Tilesets/Transparent.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="9515" name="terrain_atlas" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+  <image source="Tilesets/Tilesets/Atlas/terrain_atlas.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="10539" name="terrain_atlas" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+  <image source="Tilesets/Tilesets/Atlas/terrain_atlas.png" width="1024" height="1024"/>
+ </tileset>
  <layer id="21" name="start" width="100" height="100">
   <properties>
    <property name="startLayer" type="bool" value="true"/>
