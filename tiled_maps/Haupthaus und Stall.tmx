@@ -1829,7 +1829,6 @@
 </chunk>
   </data>
  </layer>
- <objectgroup id="7" name="Path"/>
  <layer id="16" name="Objects Foregorund" width="100" height="100">
   <data encoding="csv">
    <chunk x="16" y="-48" width="16" height="16">
