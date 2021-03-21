@@ -1,4 +1,12 @@
 { "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"json",
+         "target":"Haupthaus und Stall.json"
+        }
+    },
  "height":100,
  "infinite":true,
  "layers":[
@@ -785,17 +793,6 @@
          "type":"tilelayer",
          "visible":true,
          "width":64,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "draworder":"topdown",
-         "id":7,
-         "name":"Path",
-         "objects":[],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
          "x":0,
          "y":0
         }, 
