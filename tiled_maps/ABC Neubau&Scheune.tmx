@@ -21,8 +21,8 @@
  <tileset firstgid="10169" name="Windows" tilewidth="32" tileheight="32" tilecount="36" columns="6">
   <image source="../tilesets/Windows.png" width="192" height="192"/>
  </tileset>
- <tileset firstgid="10205" name="ak&amp;#039;s_assets" tilewidth="32" tileheight="32" tilecount="504" columns="24">
-  <image source="../tilesets/ak_#039_s_assets.png" width="768" height="672"/>
+ <tileset firstgid="10205" name="aks_assets" tilewidth="32" tileheight="32" tilecount="504" columns="24">
+  <image source="../tilesets/aks_assets.png" width="768" height="672"/>
  </tileset>
  <tileset firstgid="10709" name="open_tileset-indexed" tilewidth="32" tileheight="32" tilecount="1710" columns="45">
   <image source="../tilesets/open_tileset-indexed.png" width="1440" height="1216"/>
