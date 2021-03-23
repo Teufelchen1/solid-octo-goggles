@@ -1248,11 +1248,11 @@
         {
          "columns":24,
          "firstgid":10205,
-         "image":"..\/tilesets\/ak_#039_s_assets.png",
+         "image":"..\/tilesets\/aks_assets.png",
          "imageheight":672,
          "imagewidth":768,
          "margin":0,
-         "name":"ak&#039;s_assets",
+         "name":"aks_assets",
          "spacing":0,
          "tilecount":504,
          "tileheight":32,
