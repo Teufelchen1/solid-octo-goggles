@@ -2654,8 +2654,8 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="10205" name="ak&amp;#039;s_assets" tilewidth="32" tileheight="32" tilecount="504" columns="24">
-  <image source="../tilesets/ak_#039_s_assets.png" width="768" height="672"/>
+ <tileset firstgid="10205" name="ak_039_s_assets" tilewidth="32" tileheight="32" tilecount="504" columns="24">
+  <image source="../tilesets/ak_039_s_assets.png" width="768" height="672"/>
   <tile id="0">
    <properties>
     <property name="collides" type="bool" value="true"/>
