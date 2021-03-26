@@ -1,12 +1,4 @@
 { "compressionlevel":-1,
- "editorsettings":
-    {
-     "export":
-        {
-         "format":"json",
-         "target":"ABC Neubau&Scheune..json"
-        }
-    },
  "height":229,
  "infinite":false,
  "layers":[
@@ -5081,11 +5073,11 @@
         {
          "columns":24,
          "firstgid":10205,
-         "image":"..\/tilesets\/ak_#039_s_assets.png",
+         "image":"..\/tilesets\/ak_039_s_assets.png",
          "imageheight":672,
          "imagewidth":768,
          "margin":0,
-         "name":"ak&#039;s_assets",
+         "name":"ak_039_s_assets",
          "spacing":0,
          "tilecount":504,
          "tileheight":32,
